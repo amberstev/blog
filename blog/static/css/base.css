@@ -1,3 +1,30 @@
-header h1 a {
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left h1 a {
     color: red;
+    text-decoration: none;
+}
+
+.nav-right a {
+    color: blue;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc; /* the line */
+    width: 100%; /* make header span full width */
+    box-sizing: border-box; /* include padding in width */
 }
